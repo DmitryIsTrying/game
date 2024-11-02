@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import { GameInterface } from "./components/GameInterface";
+import { Header } from "./components/Header";
+import { Rules } from "./components/Rules";
+import { CounterContext } from "./context";
 
 function App() {
+  const [score, setScore] = useState(0);
+
+  useEffect(() => {
+    if (localStorage.getItem("score")) {
+      setScore(Number(localStorage.getItem("score")));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("score", JSON.stringify(score));
+  }, [score]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full h-screen  px-16 py-20 sm:p-10  bg-gradient-to-c flex flex-col  items-center justify-start">
+      <CounterContext.Provider value={{ score, setScore }}>
+        <Header />
+        <GameInterface />
+        <Rules />
+      </CounterContext.Provider>
     </div>
   );
 }
