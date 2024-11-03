@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/game/static/css/main.11d38828.css",
-    "main.js": "/game/static/js/main.e3b1d46c.js",
+    "main.css": "/game/static/css/main.fc21833c.css",
+    "main.js": "/game/static/js/main.7c9711cc.js",
     "static/media/logo-bonus.svg": "/game/static/media/logo-bonus.9bf8aeb80c2526dee7c67aa5c1b74ccc.svg",
     "static/media/image-rules-bonus.svg": "/game/static/media/image-rules-bonus.513320fbf32ba9e4a81fba903a77b85f.svg",
     "static/media/icon-lizard.svg": "/game/static/media/icon-lizard.0f83914cca1adc9454d1bdceb17610b0.svg",
@@ -12,11 +12,11 @@
     "static/media/icon-rock.svg": "/game/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
     "static/media/icon-close.svg": "/game/static/media/icon-close.bde602ecd1a4e55e0c27137ed651e027.svg",
     "static/media/bg-pentagon.svg": "/game/static/media/bg-pentagon.1ad6d36532b75eb7d82cabe6e8d92aef.svg",
-    "main.11d38828.css.map": "/game/static/css/main.11d38828.css.map",
-    "main.e3b1d46c.js.map": "/game/static/js/main.e3b1d46c.js.map"
+    "main.fc21833c.css.map": "/game/static/css/main.fc21833c.css.map",
+    "main.7c9711cc.js.map": "/game/static/js/main.7c9711cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.11d38828.css",
-    "static/js/main.e3b1d46c.js"
+    "static/css/main.fc21833c.css",
+    "static/js/main.7c9711cc.js"
   ]
 }
