@@ -10,7 +10,7 @@ type ChooseItemsProps = {
 
 export const ChooseItems = ({ chooseItem, items }: ChooseItemsProps) => {
   return (
-    <div className="relative">
+    <div className="relative mb-12">
       <img
         width={320}
         height={304}

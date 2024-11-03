@@ -1,0 +1,47 @@
+/* .border-primary-paper-hover:hover {
+  @apply border-primary-paper-hover;
+}
+
+.border-primary-rock-hover:hover {
+  @apply border-primary-rock-hover;
+}
+
+.border-primary-scissors-hover:hover {
+  @apply border-primary-scissors-hover;
+}
+
+.border-primary-cyan-hover:hover {
+  @apply border-primary-cyan-hover;
+}
+
+.border-primary-lizard-hover:hover {
+  @apply border-primary-lizard-hover;
+} */
+
+.all {
+  @apply w-20 h-20 sm:w-48 sm:h-48 rounded-full flex justify-center items-center border-[10px] sm:border-[20px]   transition-colors duration-200 bg-white;
+}
+
+.cursor {
+  @apply cursor-pointer;
+}
+
+.rock {
+  @apply border-primary-rock hover:border-primary-rock-hover;
+}
+
+.paper {
+  @apply border-primary-paper hover:border-primary-paper-hover;
+}
+
+.scissors {
+  @apply border-primary-scissors hover:border-primary-scissors-hover;
+}
+
+.cyan {
+  @apply border-primary-cyan hover:border-primary-cyan-hover;
+}
+
+.lizard {
+  @apply border-primary-lizard hover:border-primary-lizard-hover;
+}

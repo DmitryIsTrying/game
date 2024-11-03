@@ -3,6 +3,18 @@ import { black, transparent, white } from "tailwindcss/colors";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  safelist: [
+    "border-primary-paper",
+    "border-primary-rock",
+    "border-primary-scissors",
+    "border-primary-cyan",
+    "border-primary-lizard",
+    "border-primary-paper-hover",
+    "border-primary-rock-hover",
+    "border-primary-scissors-hover",
+    "border-primary-cyan-hover",
+    "border-primary-lizard-hover",
+  ],
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {

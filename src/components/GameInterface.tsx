@@ -19,7 +19,7 @@ const items: Items = [
   {
     name: "scissors",
     path: scissorsImage,
-    classNames: "-top-[15%] right-[36%] sm:-top-[20%] sm:right-[28%]",
+    classNames: "-top-[15%] right-[32%] sm:-top-[20%] sm:right-[28%]",
   },
   { name: "cyan", path: spockImage, classNames: "bottom-[40%] -left-[20%]" },
   {

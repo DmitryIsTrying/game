@@ -23,19 +23,19 @@ export const Rules = memo(() => {
         <button
           onClick={handleOpenModal}
           className={`border-2 rounded-md px-8 py-2 border-neutral-headerOutline text-white font-bold font-custom tracking-widest text-2xl
-            ${isHover && "animate__animated animate__shakeX"}`}
+            ${isHover && "animate__animated animate__pulse"}`}
           ref={ref}
         >
           RULES
         </button>
       </div>
       {isShowModal && (
-        <div className="absolute top-0 bottom-0 right-0 left-0 flex justify-center items-center">
+        <div className="absolute top-0 bottom-0 left-0 right-0 h-full w-full flex justify-center items-center">
           <div
             onClick={handleCloseModal}
-            className="absolute inset-0 bg-black opacity-50 z-0"
+            className="fixed inset-0 bg-black opacity-50 z-0"
           ></div>
-          <div className="bg-white z-10 flex flex-col justify-start sm:justify-center relative p-10 rounded-xl h-full sm:h-fit w-full sm:w-fit">
+          <div className="bg-white z-10 flex flex-col justify-start sm:justify-center fixed p-10 rounded-xl h-full sm:h-fit w-full sm:w-fit">
             <div className="flex justify-between items-center h-16 mb-52 sm:mb-10">
               <span className="font-custom text-4xl font-bold tracking-wide text-neutral-darkText">
                 RULES

@@ -15,7 +15,9 @@ export const Countdown = ({ callback }: CountdownProps) => {
 
   return (
     <div className="flex justify-center items-center w-full font-custom text-6xl sm:text-9xl text-white font-bold">
-      <h1>{seconds}</h1>
+      <h1 key={seconds} className="animate__animated animate__bounceIn">
+        {seconds}
+      </h1>
     </div>
   );
 };
