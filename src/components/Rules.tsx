@@ -18,7 +18,7 @@ export const Rules = memo(() => {
     <>
       <div
         style={{ width: "calc(100% - 100px)" }}
-        className="absolute bottom-[2%] flex justify-center sm:justify-end"
+        className="absolute -bottom-[15%] sm:bottom-[2%] flex justify-center sm:justify-end"
       >
         <button
           onClick={handleOpenModal}

@@ -37,7 +37,7 @@ export const GameInterface = () => {
   };
 
   return (
-    <div className="relative w-full h-48 sm:h-fit flex items-center justify-center">
+    <div className="relative w-full h-48 sm:h-fit mt-20 mb-24 sm:m-0 flex items-center justify-center">
       {game ? (
         <ChooseInterface
           backClick={setGame}
